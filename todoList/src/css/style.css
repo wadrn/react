@@ -1,0 +1,34 @@
+#container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.content .addOne{
+    margin-bottom: 10px;
+}
+.content .add{
+    margin-left: 30px;
+}
+.content .input{
+    border-radius: 5px;
+    display: inline-block;
+    width: 160px;
+    height: 32px;
+}
+.content .todolist {
+    list-style: none;
+    padding:0;
+}
+.content .todolist li{
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.content .link{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
